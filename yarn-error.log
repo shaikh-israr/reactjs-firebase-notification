@@ -1,0 +1,40 @@
+Arguments: 
+  /snap/node/3292/bin/node /home/si/Documents/node_modules/.bin/yarnpkg config get registry
+
+PATH: 
+  /home/si/.npm/_npx/7989/bin:/home/si/Documents/node_modules/.bin:/opt/GitHub Desktop:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  12.19.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: ../../package.json: EACCES: permission denied, write
+      at writeSync (fs.js:679:3)
+      at SyncWriteStream._write (internal/fs/sync_write_stream.js:24:3)
+      at doWrite (_stream_writable.js:403:12)
+      at writeOrBuffer (_stream_writable.js:387:5)
+      at SyncWriteStream.Writable.write (_stream_writable.js:318:11)
+      at ConsoleReporter.warn (/home/si/Documents/node_modules/yarn/lib/cli.js:96352:17)
+      at warn (/home/si/Documents/node_modules/yarn/lib/cli.js:51521:23)
+      at module.exports.exports.default (/home/si/Documents/node_modules/yarn/lib/cli.js:37358:7)
+      at /home/si/Documents/node_modules/yarn/lib/cli.js:51532:51
+      at Generator.next (<anonymous>)
+
+npm manifest: 
+  {
+    "name": "firebase-message",
+    "version": "0.1.0",
+    "private": true
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
